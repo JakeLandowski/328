@@ -5,6 +5,13 @@
  *  Javascript Review
  */
 
+intro();
+fizzBuzz();
+
+console.log('countBs("bbBBaa23zdffe") => ' + countBs("bbBBaa23zdffe"));
+console.log('countChar("AlphabetA", "A") => ' + countChar("AlphabetA", 'A'));
+console.log('countChar("Alphabeta", "h") +> ' + countChar("Alphabeta", 'h'));
+
 function intro()
 {
     console.log('Introduction to Javascript');
