@@ -35,3 +35,15 @@ function countBs(str)
 
     return numOfB;
 }
+
+function countChar(str, char)
+{
+    let numOfChar = 0;
+
+    for(let i = 0; i < str.length; i++)
+    {
+        if(str.charAt(i) === char) numOfChar++; 
+    }
+
+    return numOfChar;
+}
